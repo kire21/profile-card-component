@@ -22,10 +22,10 @@ html {
 body {
   font-size: 1.8rem;
   font-weight: 400;
-  font-family: "Kumbh Sans", Arial, Helvetica, sans-serif;
+  font-family: 'Kumbh Sans', Arial, Helvetica, sans-serif;
   background-color: var(--color-background);
-  background-image: url("/images/bg-pattern-top.svg"),
-    url("/images/bg-pattern-bottom.svg");
+  background-image: url('./images/bg-pattern-top.svg'),
+    url('./images/bg-pattern-bottom.svg');
   background-repeat: no-repeat, no-repeat;
   background-position: right 51vw bottom 40vh, left 49vw top 52vh;
 }
@@ -73,7 +73,7 @@ h3 {
 .card__header {
   height: 14rem;
   overflow: hidden;
-  background: url(/images/bg-pattern-card.svg) no-repeat;
+  background: url(./images/bg-pattern-card.svg) no-repeat;
 }
 
 .card--img {
